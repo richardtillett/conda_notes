@@ -12,6 +12,8 @@ For more detailed documentation, check out the official docs too.
 
 * Conda documentation [docs home](https://conda.io/projects/conda/en/latest/) and [conda user guide -- getting started](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html)
 * Bioconda [https://bioconda.github.io](https://bioconda.github.io)
+* A [conda cheatsheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
+
 
 ## Installing miniconda
 
