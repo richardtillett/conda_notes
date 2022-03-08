@@ -77,7 +77,7 @@ Using environments is smarter in the long run. It comes with cognitive costs, th
 
 Let's install bowtie2 and samtools into an environment.
 
-`conda create -n align_env bowtie2 samtools`
+`conda create -n align_env -c bioconda bowtie2 samtools`
 
 You can activate the `align_env` to use these versions
 
@@ -92,7 +92,7 @@ And deactivate the env thusly
 To create a specifc environment for Stacks, version 1.47, this command looks like:
 
 ```bash
-conda create -n stacks147_env stacks=1.47
+conda create -n stacks147_env -c bioconda stacks=1.47
 ```
 
 
@@ -130,7 +130,7 @@ First, search for FastQC (google for the capitalization or not, then)
 
 Then,
 
-`conda install -n align_env fastqc`
+`conda install -n align_env -c bioconda fastqc`
 
 Verify by activating the environment, `which`, and testing the help messages of fastqc
 
@@ -148,8 +148,8 @@ Updating a tool that is in an environment
 
 (if in an environment)
 ```bash
-source deactivate
-source activate align_env
+conda deactivate
+conda activate align_env
 ```
 
 ## Removing packages
