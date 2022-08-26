@@ -55,7 +55,7 @@ conda search samtools
 conda search bowtie-2
 ```
 
-So, kallisto is found, but bowtie-2 is not. Let's use google to see if there might be a sleuth package but with a different name than the one we searched for. Google `conda bowtie-2`
+So, kallisto is found, but bowtie-2 is not. *Let's use google* to see if there might be a bowtie 2 package but with a slightly different name than the one we searched for. Google the phrase `conda bowtie-2`.
 
 It looks like the correct package name is `bowtie2`. Let's try:
 
